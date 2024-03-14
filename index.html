@@ -1,0 +1,43 @@
+<!--JS se puede escribir inscrutado o como
+archivo externo!!!-->
+
+<!--JS INSCRUTADO, EJEMPLO 1: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS introducción</title>
+  <!--esto será JS-->  
+   
+    <script>
+// Comentarios son distintos a los de html, se ponen al comienzo //
+    function mostrarMensaje(){
+        alert("Un saludo");
+    }
+    
+    function sumar(){
+        var numero1 = 7;
+        var numero2=1;
+        var resultado = numero1 + numero2;
+
+        alert(resultado);
+    }
+
+
+    </script>
+
+</head>
+
+
+<body>
+    <p id="mensaje">Pincha el botón para conocer el mensaje</p>
+    <br>
+
+    <button onclick="sumar()"> Pinchame </button>
+    
+<!--MostrarMensaje es una función que luego se va a programar-->
+
+</body>
+</html>
